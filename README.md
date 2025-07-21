@@ -8,10 +8,10 @@ A project aimed for detecting emergent behavior in any swarm, given the internal
   a. Python, Julia or any other GUI simulation applicable language.
   b. Need to be able to create a GUI, record data, run machine learning API, and read output of machine learning back into graph.
 2. Create the swarm
-  a. Created a class for individual drone agent, and for a swarm.
-  b. The agent class initializes a drone instance with a positional and speed characteristics, as well as viewing characterstics.
+  <li>a. Created a class for individual drone agent, and for a swarm.</li>
+  <li>b. The agent class initializes a drone instance with a positional and speed characteristics, as well as viewing characterstics.</li>
      - This is important because a Couzin swarm simulation is founded on individual drones' perception of any adjacent swarms to be able to form a swarm based on a decentralized approach.
-  c. Swarm class initializes a set of drone instances, as well as records the following characteristics of a drone swarm over time:
+  <li>c. Swarm class initializes a set of drone instances, as well as records the following characteristics of a drone swarm over time:</li>
      - Center of mass: See Equation 1.
      - Polarization: The overall direction of the swarm based on all agents
      - Relative direction: Partitions the swarm into multiple angles, and records the agents viewed by each agent in each angular section
